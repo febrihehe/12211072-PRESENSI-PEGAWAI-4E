@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2023-04-16T10:13:35.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="9xjekyP-OgfZrfuxC8ln" version="21.1.2" type="device">
+  <diagram name="Страница-1" id="9QBA7CHi8jJhlV1cCXKf">
+    <mxGraphModel dx="1776" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-1" value="Resume" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-9" value="id_resume*&lt;br&gt;id_presensi**&lt;br&gt;Jml_ontime&lt;br&gt;Jml_nopresnt&lt;br&gt;Jumlah_late&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LtwwY95N2a5h_CgHdRpu-1" vertex="1">
+          <mxGeometry x="50" y="55" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LtwwY95N2a5h_CgHdRpu-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="100" />
+              <mxPoint x="555" y="100" />
+              <mxPoint x="555" y="130" />
+              <mxPoint x="620" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="90" as="sourcePoint" />
+            <mxPoint x="180" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="100" />
+              <mxPoint x="210" y="100" />
+              <mxPoint x="210" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-2" value="Pegawai" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-5" value="NIP*&lt;br&gt;Nama&lt;br&gt;Jenis Kelamin&lt;br&gt;Jabatan&lt;br&gt;Alamat&lt;br&gt;No Hp&lt;br&gt;Email&lt;br&gt;Password&lt;br&gt;foto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LtwwY95N2a5h_CgHdRpu-2" vertex="1">
+          <mxGeometry x="50" y="40" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="LtwwY95N2a5h_CgHdRpu-3" target="LtwwY95N2a5h_CgHdRpu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="120" />
+              <mxPoint x="840" y="300" />
+              <mxPoint x="650" y="300" />
+              <mxPoint x="650" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-3" value="Presensi" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="620" y="70" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-7" value="id_presensi*&lt;br&gt;NIP**&lt;br&gt;Waktu_Masuk&lt;br&gt;Waktu_tengah&lt;br&gt;Waktu_Pulang&lt;br&gt;IP_Masuk&lt;br&gt;IP_Keluar&lt;br&gt;ID_Masuk&lt;br&gt;ID_Keluar&lt;br&gt;Lokasi_Area" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LtwwY95N2a5h_CgHdRpu-3" vertex="1">
+          <mxGeometry x="50" y="30" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-4" value="Cuti" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LtwwY95N2a5h_CgHdRpu-8" value="id_cuti*&lt;br&gt;NIP**&lt;br&gt;Nama Pegawai&lt;br&gt;Tanggal Mulai&lt;br&gt;Tanggal Selesai&lt;br&gt;Alasan&lt;br&gt;Bukti Keterangan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LtwwY95N2a5h_CgHdRpu-4" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
